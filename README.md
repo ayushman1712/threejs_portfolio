@@ -1,12 +1,98 @@
-# React + Vite
+# Three.js Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive 3D portfolio website built with React, Three.js, and TailwindCSS. Features animated 3D models, responsive design, and seamless navigation.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive 3D scenes using Three.js
+- Responsive design for all device sizes
+- Smooth animations with GSAP
+- Dynamic globe visualization
+- Custom 3D models and textures
+- Modern UI with TailwindCSS
+- Optimized performance
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Three.js
+- @react-three/fiber & @react-three/drei
+- TailwindCSS
+- GSAP
+- Vite
+- React Globe.gl
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/threejs_portfolio.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd threejs_portfolio
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## 🛠️ Usage
+
+The portfolio is divided into several sections:
+- Home: Interactive 3D scene with developer model
+- About: Personal information with interactive globe
+- Work: Work experience timeline
+- Contact: Client testimonials and contact information
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and optimized for:
+- Desktop (1024px and above)
+- Tablet (768px to 1023px)
+- Mobile (below 768px)
+
+## ⚙️ Configuration
+
+You can customize the portfolio by modifying:
+- `src/constants/index.js` - Content and configuration
+- `tailwind.config.js` - Theme and styling
+- `public/models/` - 3D models and textures
+
+## 🔧 Development
+
+```bash
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# View the website in local host
+npm run dev
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 👨‍💻 Author
+
+Ayushman Pandey
+
+## 🙏 Acknowledgments
+
+- Three.js community
+- React Three Fiber team
+- All the amazing artists who created the 3D models
