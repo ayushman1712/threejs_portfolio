@@ -61,8 +61,7 @@ const Hero = () => {
                     Hi, I am Ayushman <span className={"waving-hand"}>👋</span>
                 </p>
 
-                <p className={"hero_tag text-gray_gradient"}>Researcher
-                    @CI Lab, IIITD</p>
+                <p className={"hero_tag text-gray_gradient"}>Comp Science + Des @IIITD</p>
             </div>
 
             <div className={"w-full h-full absolute inset-0"}>
