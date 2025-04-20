@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ayushman1712.github.io/threejs_portfolio/",
   "name": "threejs_portfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run dev"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
