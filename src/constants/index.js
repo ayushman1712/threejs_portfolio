@@ -25,35 +25,34 @@ export const clientReviews = [
     {
         id: 1,
         name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
+        position: 'Co-Founder at GreenLoop Design',
         img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        review: 'Working with Ayushman was a game-changer. He brought clarity and structure to our design thinking workshops and helped us build a sleek, intuitive prototype. His approach is both thoughtful and refreshingly creative.',
     },
     {
         id: 2,
         name: 'Mark Rogers',
         position: 'Founder of TechGear Shop',
         img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+        review:'Ayushman’s ability to translate research insights into tangible, interactive experiences is remarkable. His work on our HCI study was both rigorous and elegant. A fantastic blend of tech and empathy.',
+
     },
     {
         id: 3,
         name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
+        position: 'Product Manager at IndieDev Studios',
         img: 'assets/review3.png',
         review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+            'Ayushman was pivotal in redesigning our mobile app. From accessibility tweaks to visual storytelling, he elevated the entire user experience. Reliable, resourceful, and always a step ahead.',
     },
     {
         id: 4,
         name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
+        position: 'Founder, WebReboot',
         img: 'assets/review4.png',
         review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
+            'Ayushman handled both the frontend implementation and UI design for our startup’s landing page. The result? Clean visuals, fast load times, and tons of positive feedback. Would 100% collaborate again.',
+},
 ];
 
 export const myProjects = [
